@@ -1,0 +1,23 @@
+{
+  "name": "demo-site",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf node_modules __lwr_cache__ site",
+    "dev": "lwr dev",
+    "build": "lwr build --clean",
+    "start": "lwr start",
+    "stage": "yarn build && yarn start"
+  },
+  "dependencies": {
+    "lwr": "0.9.4"
+  },
+  "engines": {
+    "node": ">=16.0.0 <20"
+  },
+  "volta": {
+    "node": "16.19.1"
+  }
+}

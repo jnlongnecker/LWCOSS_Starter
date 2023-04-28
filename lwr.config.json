@@ -1,0 +1,36 @@
+{
+    "lwc": { "modules": [{ "dir": "$rootDir/src/modules" }] },
+    "routes": [
+        {
+            "id": "Home",
+            "path": "/",
+            "contentTemplate": "$contentDir/home.md",
+            "layoutTemplate": "$layoutsDir/main_layout.njk"
+        },
+        {
+            "id": "About",
+            "path": "/about",
+            "contentTemplate": "$contentDir/about.md",
+            "layoutTemplate": "$layoutsDir/main_layout.njk"
+        },
+        {
+            "id": "Components",
+            "path": "/components",
+            "contentTemplate": "$contentDir/components.md",
+            "layoutTemplate": "$layoutsDir/main_layout.njk"
+        }
+    ],
+    "assets": [
+        {
+            "alias": "assetsDir",
+            "dir": "$rootDir/src/assets",
+            "urlPath": "/public/assets"
+        },
+        {
+            "alias": "favicon",
+            "file": "$rootDir/src/assets/favicon.ico",
+            "urlPath": "/favicon.ico"
+        }
+    ],
+    "moduleProviders": []
+}
