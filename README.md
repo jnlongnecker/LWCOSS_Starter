@@ -11,5 +11,6 @@ To quickly get it running on your computer, ensure you have Node.js installed an
 ```bash
 git clone https://github.com/jnlongnecker/LWCOSS_Starter ossStarter
 cd ossStarter
+npm install
 npm run dev
 ```
